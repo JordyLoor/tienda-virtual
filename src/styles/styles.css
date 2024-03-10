@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px 100px;
+  border-bottom: 2px solid black;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.navigation-container {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+}
+
+.list-item {
+  color: #737373;
+  font-weight: bold;
+}
+
+.link {
+  color: #23a6f0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.actions-container {
+  display: flex;
+  gap: 20px;
+}

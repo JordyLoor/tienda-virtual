@@ -128,16 +128,11 @@
   font-size: 20px;
 }
 
-.titulo3 {
-  color: #ffffff;
-  font-size: 20px;
-}
-
 .portada-img {
   display: block;
 }
 
-.box {
+.portada-box {
   background: rgba(45, 139, 192, 0.75);
   padding: 80px 70px;
   position: absolute;
@@ -147,11 +142,14 @@
   gap: 20px;
 }
 
-.box-2 {
+.portada-box-2 {
   padding: 40px 50px;
 }
 
-.buttom {
+.portada-button {
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 15px 40px;
   text-transform: uppercase;
   border: 1px solid #ffffff;
   margin: 0 auto;

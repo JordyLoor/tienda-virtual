@@ -46,11 +46,11 @@
   padding: 42px 60px;
 }
 
-.banner{
+.banner {
   width: 100%;
   height: 65vh;
-  background-image: url('../images/image-banner.png');
-  background-color:  #96E9FB;
+  background-image: url("../images/image-banner.png");
+  background-color: #96e9fb;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -60,13 +60,13 @@
 }
 
 .banner-title {
-  color: #2A7CC7;
+  color: #2a7cc7;
   font-size: 16px;
   font-weight: 700;
 }
 
 .banner-subtitle {
-  color: #252B42;
+  color: #252b42;
   font-size: 58px;
   font-weight: bold;
 }
@@ -81,7 +81,7 @@
   font-size: 24px;
   font-weight: 700;
   border: none;
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   color: white;
   width: max-content;
   padding: 15px 40px;
@@ -100,5 +100,58 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 230px;
+}
 
+.cards {
+  padding: 80px 88px;
+}
+.cards-container {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  position: relative;
+}
+
+.card-image {
+  height: 100%;
+}
+
+.box {
+  position: absolute;
+  bottom: 0;
+  background-color: #2d8bc0a8;
+  padding: 50px 88px;
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+}
+
+.box-one {
+  padding: 80px 88px;
+}
+
+.box-title {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.box-title-one {
+  font-size: 32px;
+}
+
+.box-button {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 15px 40px;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }

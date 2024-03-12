@@ -238,3 +238,43 @@
   color: #23a6f0;
   background-color: transparent;
 }
+
+.images-container {
+  display: flex;
+  gap: 20px;
+}
+
+.we-think-container {
+  display: flex;
+  gap: 90px;
+  padding: 80px 80px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 446px;
+  margin: 0px 20px;
+  justify-content: center;
+}
+
+.we-think-text {
+  color: #23a6f0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.we-think-text2 {
+  color: #252b42;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.we-think-text3 {
+  display: flex;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 0px 25px;
+}

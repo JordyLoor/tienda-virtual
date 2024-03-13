@@ -155,3 +155,160 @@
   flex-direction: column;
   gap: 15px;
 }
+
+.featured-products {
+  padding: 80px 0px;
+}
+
+.frame-one-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 181px;
+  margin-bottom: 50px;
+}
+
+.featured-products-title-container {
+  text-align: center;
+}
+
+.featured-products-title {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  align-content: center;
+}
+
+.featured-products-subtitle {
+  color: #737373;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  align-content: center;
+}
+
+.featured-products-paragraph {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  align-content: center;
+  margin-bottom: 65px;
+}
+
+.featured-images-container {
+  display: flex;
+  gap: 30px;
+}
+
+.frame-title {
+  color: #252b42;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.frame-subtitle {
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.price-container {
+  color: #bdbdbd;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.price-two-container {
+  color: #23856d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  display: inline-block;
+}
+
+.frame-two-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 181px;
+  margin-bottom: 96px;
+}
+
+.featured-products-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-products-button {
+  text-transform: uppercase;
+  color: #23a6f0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #23a6f0;
+}
+
+.desktop {
+  padding: 90px 181px;
+  display: flex;
+}
+
+.desktop-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.desktop-images {
+  display: flex;
+  gap: 16px;
+}
+
+.desktop-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.desktop-title {
+  color: #23a6f0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.desktop-subtitle {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+
+.desktop-paragrahp {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
